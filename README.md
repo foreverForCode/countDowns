@@ -24,13 +24,13 @@ countDown({
 
 参数说明
 
-| 参数        | 数据类型    |  介绍          |
-| --------    | :-----:    | :----:         |
-| startTime   | {string}   |   开始时间      |
-| endTime     | {number}   |   结束时间      |
-| moveCallback| {number}   |   倒计时回调    |
-| endCallback | {number}   |   倒计时结束    |
-| elem        | {string}   |   回传的节点    |
+| 参数        | 数据类型     |  介绍          |  实例                |
+| --------    | :-----:     | :----:         |  ----                |
+| startTime   | {string}    |   开始时间      |  2018-11-12 12:12:12 |
+| endTime     | {string}    |   结束时间      |2018-11-12 12:12:12   |
+| moveCallback| {function}   |   倒计时回调  | function(){}       |
+| endCallback | {function}   |   倒计时结束  | function(){}       |
+| elem        | {string}   |   回传的节点    |'.elem'               |
 
 
 返回数据说明
